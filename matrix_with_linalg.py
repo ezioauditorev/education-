@@ -1,0 +1,12 @@
+import numpy as np
+delt = np.array([[1 ,1], [2,3]])
+det1 = np.linalg.det(delt)
+print("Дельта:", det1)
+x_delt = np.array([[3,1],[3,3]])
+det2 = np.linalg.det(x_delt)
+print("Дельта x:", det2)
+y_delt = np.array([[1,1], [2,1]])
+det3 = np.linalg.det(y_delt)
+print("Дельта y:", det3)
+print(det2/det1)
+print(det3/det1)
